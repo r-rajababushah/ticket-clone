@@ -1,0 +1,361 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.main {
+    width: 412px;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.header {
+    padding: 15px 20px;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header img {
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50px;
+    z-index: 4;
+    position: absolute;
+}
+
+.header .cr {
+    left: 10px;
+    top: 5px;
+    box-shadow: -.2px -.2px black, .2px .2px black;
+}
+
+.header marquee {
+    color: black;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.header .ir {
+    height: 40px;
+    width: 40px;
+    top: 5px;
+    left: 365px;
+    z-index: 4;
+}
+
+/* Brown Color Ka Sangam */
+.card {
+    padding: 10px;
+    width: 100%;
+    border-radius: 1%;
+    background-color: white;
+    box-shadow: 2px 2px 1px blur black;
+}
+
+.card .details {
+    border-radius: 1% 1% 0 0;
+    padding: 5px 15px 1px;
+    /* background-color: #9a45e5; */
+    background-color: cyan;
+}
+
+
+.card .details .hj {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 0px 8px 0px;
+}
+
+.card .details .hj #hjp {
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+
+.card .details .hj #hjm {
+    color: white;
+    background-color: #760145;
+    padding: 4px 70px;
+    font-weight: 600;
+}
+
+.card .details .hrule {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(0, 0, 0) !important;
+}
+
+.card .details .adsd {
+    padding: 4px 0px;
+}
+
+.card .details .adsd #asfp {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.card .details .adsd #assp {
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 102px;
+    left: 317px;
+}
+
+.farenum {
+    margin-bottom: 4px;
+}
+
+.farenum #fap {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.farenum #num {
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 120px;
+    left: 310px;
+}
+
+.utsnum {
+    margin-bottom: 4px;
+}
+
+.utsnum #utsn {
+    font-size: 13px;
+    font-weight: 700;
+
+}
+
+.utsnum #utst {
+    font-size: 14px;
+    color: red;
+    font-weight: 500;
+    position: absolute;
+    top: 138px;
+    left: 320px;
+}
+
+.idcardn {
+    margin-bottom: 4px;
+}
+
+.idcardn #idn {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.idcardn #idn span,
+.agec #agen span {
+    color: red;
+}
+
+.passn {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.passn #pn span {
+    color: red;
+}
+
+.agec {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.agec #btn {
+    position: absolute;
+    top: 194px;
+    left: 333px;
+    color: red
+}
+
+.stations {
+    padding-top: 6px;
+}
+
+.stations .ballabh,
+.stations .delhijn {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+.ballabh .icon,
+.delhijn .icon {
+    color: white;
+    line-height: 22px;
+    text-align: center;
+    background-color: #760145;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.hrulee {
+    height: 0.02vh;
+    width: 100%;
+    background-color: black;
+    outline: none;
+    border: none;
+}
+
+.ctype {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    gap: 1px;
+}
+
+.clastyp {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.cls {
+    font-weight: 500;
+}
+
+.clsty {
+    margin-left: 4px;
+    color: red;
+}
+
+.traintyp {
+    display: flex;
+    align-items: center;
+}
+
+.trn {
+    font-weight: 500;
+}
+
+.trnty {
+    margin-left: 4px;
+    color: red;
+}
+
+
+.via {
+    padding: 4px 0px;
+    font-weight: 500;
+}
+
+.via span {
+    margin: 8px;
+    padding: 3px;
+    color: white;
+    background-color: #760145;
+    border-radius: 15px;
+}
+
+.sac {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+
+.sac b {
+    margin-right: 8px;
+}
+
+.validaty {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.validaty span {
+    color: red;
+}
+
+.rd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.outerB {
+    z-index: 5;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 100;
+    box-shadow: 5px 0 10px -5px rgba(0, 0, 0, 1),
+        0 5px 10px -5px #ccc,
+        -5px 0 10px -5px #ccc;
+}
+
+.extra {
+    padding: 5px 2px;
+    margin-bottom: 5px;
+}
+
+.extra p,
+u {
+    font-size: 9px;
+    text-align: justify;
+}
+
+.extra u {
+    font-size: 10px;
+    color: orangered;
+}
+
+.extra .pr {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10.1px;
+    text-transform: uppercase;
+    color: orangered;
+    font-weight: bold;
+
+}
+
+.bot {
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.buttonss {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+button {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    background-color: rgb(255, 72, 0);
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 13px;
+}
