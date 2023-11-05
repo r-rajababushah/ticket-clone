@@ -359,3 +359,10 @@ button {
     align-self: center;
     font-size: 13px;
 }
+
+.sssl {
+    text-align: center;
+    margin-top: 110px;
+    font-size: 14px;
+    font-weight: 500;
+}
