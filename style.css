@@ -8,7 +8,7 @@
 
 .main {
     width: 412px;
-    height: 100%;
+    height: 100vh;
     font-family: sans-serif;
 }
 
@@ -362,7 +362,7 @@ button {
 
 .sssl {
     text-align: center;
-    margin-top: 110px;
+    margin-top: 170px;
     font-size: 14px;
     font-weight: 500;
 }
